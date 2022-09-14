@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import Input from './components/UI/Input';
+import SignupForm from './components/SignUp/SignUpForm';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<SignupForm />
+		</div>
+	);
 }
 
 export default App;
